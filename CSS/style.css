@@ -65,6 +65,11 @@ body{
     float: left;
 }
 
+.right{
+    width: 50%;
+    float: left;
+}
+
 .font{
     font-weight: bold;
     font-size: 20px;
@@ -85,5 +90,18 @@ body{
 .box2{
     height:25px;
     width: 310px;
+}
+
+.sign{
+    background-color: rgba(5, 222, 5, 0.899);
+    color: whitesmoke;
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    border:rgba(5, 222, 5, 0.899);
+}
+
+.sign:hover{
+    background: #2378e7;
 }
 
