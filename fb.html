@@ -42,14 +42,14 @@
             <div class="right">
                 <h1>Create an account</h1>
                 <p><strong>It's quick and easy</strong></p>
-                <form>
-                    <input type="text" class="box" placeholder="First name">
-                    <input type="text" class="box" placeholder="Surname"><br><br>
-                    <input type="text" class="box2" placeholder="Mobile number or email address"><br><br>
-                    <input type="password" class="box2" placeholder="New password"><br><br>
+                <form id="sign-up">
+                    <input name="fname" type="text" class="box" placeholder="First name">
+                    <input name="sname" type="text" class="box" placeholder="Surname"><br><br>
+                    <input name="emailnum" type="text" class="box2" placeholder="email address"><br><br>
+                    <input name="password" type="password" class="box2" placeholder="New password"><br><br>
                     <label>Birthday</label><br>
-                    <select>
-                        <option>Day</option>
+                    <select name="day">
+                        <option value="">Day</option>
                         <option>1</option>
                         <option>2</option>
                         <option>3</option>
@@ -82,8 +82,8 @@
                         <option>30</option>
                         <option>31</option>
                     </select>
-                    <select>
-                        <option>Month</option>
+                    <select name="month">
+                        <option value="">Month</option>
                         <option>Jan</option>
                         <option>Feb</option>
                         <option>Mar</option>
@@ -97,8 +97,8 @@
                         <option>Nov</option>
                         <option>Dec</option>
                     </select>
-                    <select>
-                        <option>Year</option>
+                    <select name="year">
+                        <option value="">Year</option>
                         <option>1990</option>
                         <option>1991</option>
                         <option>1992</option>
@@ -125,6 +125,9 @@
 
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
     
 </body>
 </html>
